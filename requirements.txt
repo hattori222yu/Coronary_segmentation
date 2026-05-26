@@ -1,0 +1,6 @@
+# Coronary Artery Segmentation Pipeline — Python dependencies
+# nnUNet / U-Mamba must be installed separately (see README.md)
+
+nibabel>=4.0.0
+numpy>=1.23.0
+scipy>=1.9.0
