@@ -13,7 +13,7 @@ automatic post-processing for coronary artery segmentation in CT images.
 | **One-click inference** | Wraps `nnUNetv2_predict` with GUI-configurable parameters |
 | **Post-processing** | Retains the two largest connected components (LCA / RCA) and resolves intra-component label mixing |
 | **Live log** | Streams inference output in real time |
-| **Cross-platform** | Windows / Linux / macOS |
+| **Cross-platform** | Windows / Linux  |
 
 ---
 
@@ -68,7 +68,9 @@ $env:nnUNet_results      = "C:\path\to\nnUNet_results"
 ```
 
 ### 3. Launch the GUI
+## GUI Screenshot
 
+![GUI Screenshot](images/gui.png)
 ```bash
 python coronary_pipeline_gui.py
 ```
@@ -119,8 +121,7 @@ run_postprocess(
 
 If you use this tool in your research, please cite:
 
-> Hattori et al. (2026). *SlicerPcatMeasure: An open-source platform for
-> pericoronary adipose tissue quantification*. SoftwareX. (under review)
+> Hattori et al. (2026). *SlicerPcatMeasure: A 3D Slicer Extension for Pericoronary Adipose Tissue Quantification*. SoftwareX. (under review)
 
 ---
 
