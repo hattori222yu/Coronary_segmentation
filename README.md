@@ -121,7 +121,7 @@ run_postprocess(
 ![Overlay](images/ct_sample.png)
 ### Coronary artery segmentation result
 
-![3D Slicer](images/3d_sample_3d.png)
+![3D Slicer](images/3d_sample.png)
 
 
 ---
