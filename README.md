@@ -68,12 +68,12 @@ $env:nnUNet_results      = "C:\path\to\nnUNet_results"
 ```
 
 ### 3. Launch the GUI
-## GUI Screenshot
-
-![GUI Screenshot](images/gui.png)
 ```bash
 python coronary_pipeline_gui.py
 ```
+## GUI Screenshot
+
+![GUI Screenshot](images/gui.png)
 
 ---
 
