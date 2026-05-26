@@ -44,6 +44,22 @@ pip install -r requirements.txt
 | U-Mamba *(optional)* | https://github.com/bowang-lab/U-Mamba |
 
 ---
+## Pre-trained Models
+
+Pre-trained model checkpoints are available on Hugging Face:
+
+🤗 **[Download Checkpoints](https://huggingface.co/mhyu222/coronary-segmentation-nnunet-umamba)**
+
+Download the checkpoints and place them in your model directories:
+
+- `nnUNet/checkpoint_final.pth` → your nnUNet model folder
+- `UMambaBot/checkpoint_final.pth` → your UMambaBot model folder
+
+Then specify each path in `coronary_pipeline_gui.py` when prompted.
+
+
+
+
 
 ## Quick Start
 
